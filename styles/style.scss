@@ -20,6 +20,8 @@ $gray-text: #2c2c2c;
 @import 'global';
 @import 'intro';
 @import 'projects';
+@import 'contact';
+@import 'footer';
 
 
 @media screen and (max-width: 1334px) {
@@ -71,6 +73,10 @@ $gray-text: #2c2c2c;
 
         }
         
+    }
+    form {
+        padding: 2rem;
+        width: 100%;
     }
 
 }
